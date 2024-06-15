@@ -2,9 +2,8 @@ import Image from "next/image";
 
 import NavLink from "@/components/ui/nav-links";
 import { Button } from "@/components/ui/button";
-import FooterTwo from "@/components/ui/footer";
+
 import Link from "next/link";
-import { anton } from "@/components/ui/fonts";
 
 import { FaReact } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
