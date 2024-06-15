@@ -13,7 +13,7 @@ import { SiVercel } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
 import { TextGenerateEffectDemo } from "@/app/textgen";
-
+import { ThreeDCardDemo } from "@/app/3dcard";
 
 export default async function HomePage() {
 
@@ -60,7 +60,7 @@ export default async function HomePage() {
       </Link> 
         
 
-      <div className="wrapper mt-5 border-2 border-red-600 flex items-center justify-center">
+      <div className="wrapper mt-5 border-t-2 border-b-2 border-red-600 flex items-center justify-center">
           <div className="item item1 flex items-center justify-center"><p className="pr-2">React</p><FaReact size={25} title="React" /></div>
           <div className="item item2 flex items-center justify-center"><p className="pr-2">Next.js</p><TbBrandNextjs size={25} title="Nextjs" /></div>  
           <div className="item item3 flex items-center justify-center"><p className="pr-2">TypeScript</p><SiTypescript size={20} title="typescript" /></div>
@@ -105,7 +105,8 @@ export default async function HomePage() {
              />
           
           </div>
-        </div>
+      </div>
+      
       
         <div className="flex flex-col items-center justify-center mb-6">
 
@@ -174,6 +175,7 @@ export default async function HomePage() {
       <h2 id="Skills" className="text-2xl mt-10 mb-2 pt-3">Skills</h2>
       <br/>
 
+
       <div className="flex flex-col md:flex-row justify-center">
       
       <div className="flex items-center justify-center mb-6">
@@ -220,6 +222,9 @@ export default async function HomePage() {
         </div>
       </div>
       </div>
+
+      <ThreeDCardDemo /> 
+
  </div>       
      
 

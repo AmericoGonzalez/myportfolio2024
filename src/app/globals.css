@@ -1,6 +1,101 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
+
+  body {
+    font-family: 'Roboto', sans-serif;
+   
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+  }@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  
+  
+
+  .fade-in-out {
+    animation: fadeInOut 3s infinite;
+  }
+  
+
+  .wrapper {
+    
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 35px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    )
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -200px;
+    }
+  }
+
+  .item {
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    color: rgb(7, 4, 0);
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 6), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 6 * (6 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 6 * (6 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 6 * (6 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 6 * (6 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 6 * (6 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 6 * (6 - 6) * -1);
+  }
+
+
+
+
+
+
+
+
+
 
   @layer base {
     :root {
@@ -74,3 +169,6 @@
       @apply bg-background text-foreground;
     }
   }
+
+
+  
