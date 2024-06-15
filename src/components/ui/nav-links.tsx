@@ -11,9 +11,10 @@ import { anton } from "@/components/ui/fonts";
 
 const links = [
     { name: 'Home', href: '/' },
-    { name: 'Resume', href: '/resume/my-resume' },
-    { name: 'Projects', href: '/projects/my-projects' },
+    { name: 'Skills', href: '#Skills' },
+    { name: 'Projects', href: '#Projects' },
     { name: 'About', href: '#About' },
+    { name: 'Contact me', href: '#Contact' },
 ];
 
 export default function NavLink() {
@@ -55,6 +56,7 @@ export default function NavLink() {
                     </svg>
                 </button>
             </div>
+
             <div className={clsx(
                 "flex flex-col md:flex-row justify-center md:space-x-6",
                 { "hidden": !menuOpen, "md:flex": true }

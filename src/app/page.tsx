@@ -13,11 +13,17 @@ import { SiTypescript } from "react-icons/si";
 
 import { TextGenerateEffectDemo } from "@/app/textgen";
 import { ThreeDCardDemo } from "@/app/3dcard";
+import ContactForm from "@/app/contactform";
+
+import { SlSocialLinkedin } from "react-icons/sl";
+import { BsGithub } from "react-icons/bs";
+import { SlSocialTwitter } from "react-icons/sl";
+
+
+
+
 
 export default async function HomePage() {
-
-
-
   return (
    <div className="text-center">
 
@@ -50,14 +56,6 @@ export default async function HomePage() {
       </div>
         
         
-        
-        
-      <Link href="/contact/contact-me">
-        <Button className={`transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300* mt-6 mb-6 text-xl border-red-400 border-2
-           text-red-600 bg-white shadow-xl rounded hover:bg-gray-200`}>Contact me</Button>
-           {/*transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300*/}
-      </Link> 
-        
 
       <div className="wrapper mt-5 border-t-2 border-b-2 border-red-600 flex items-center justify-center">
           <div className="item item1 flex items-center justify-center"><p className="pr-2">React</p><FaReact size={25} title="React" /></div>
@@ -68,7 +66,7 @@ export default async function HomePage() {
           <div className="item item6 flex items-center justify-center"><p>This app was built with:</p></div>
       </div>
 
-      <h2 className="text-2xl mt-10 mb-5 pt-3">Projects</h2>
+      <h2 id="Projects" className="text-2xl mt-10 mb-5 pt-3">Projects</h2>
     
     <div className="flex flex-col md:flex-row justify-center">
       
@@ -143,33 +141,9 @@ export default async function HomePage() {
       </div>
       </div>
 
-      <h2 id="About" className="text-2xl mt-10 mb-2 pt-3">About</h2>
+      <h2 id="About" className="text-2xl mt-10 pt-3">About</h2>
 
-      <div className="flex flex-col md:flex-row justify-center items-center mb-8">
-        
-        <div className="w-80 h-80 mx-4 mb-14 p-2">
-          <Image
-            src="/mypic01.png"
-            layout="responsive"
-            alt="my picture 1"
-            width={50}
-            height={100}
-            className="rounded-xl"
-          />
-        </div>
-
-
-        <div className="w-120 h-120 mx-4 mt-4 p-4 text-left">
-          
-        
-          <p>My name is Americo Gonzalez, a web developer with a passion for creating visually appealing, user-friendly, and responsive apps.</p>
-          <p>I&rsquo;m a Chilean-Canadian fluent in both Spanish and English.</p>
-          <p>My academic journey began with a Bachelor&rsquo;s degree in History and Geography, providing me with a well-rounded foundation in the social sciences.</p>
-          <p>My subsequent academic journey led me to Canada, where I pursued studies in business administration. Recently, I&rsquo;ve embarked on web development studies, which I&rsquo;ve just completed.</p>
-          <p>I have a keen interest in exploring diverse cultures through travel, although my opportunities for globe-trotting have been somewhat limited thus far, with visits to only five countries.</p>
-          <p>When it comes to leisure, I&rsquo;m drawn to sci-fi films, classic rock-pop music, and video editing. I&rsquo;m passionate about culture, cutting-edge technology, and the visual arts in general.</p>
-        </div>
-      </div>
+         <ThreeDCardDemo /> 
 
       <h2 id="Skills" className="text-2xl mt-10 mb-2 pt-3">Skills</h2>
       <br/>
@@ -179,7 +153,7 @@ export default async function HomePage() {
       
       <div className="flex items-center justify-center mb-6">
 
-          <div className="w-100 h-140 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
+          <div className="w-100 h-120 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
             
             <h3>Technical</h3>
             <br/>
@@ -196,6 +170,10 @@ export default async function HomePage() {
               <li>Node.js and Express</li>
               <li>React and Next.js</li>
             </ul>
+            <br/>
+            <p>Some tools that I learned to use are: VSCode, Figma, Visio, Microsoft Access,
+             Notion, Github, Vercel, and Postman.
+            </p>
             
             
           </div>
@@ -203,7 +181,7 @@ export default async function HomePage() {
       
         <div className="flex flex-col items-center justify-center mb-6">
 
-          <div className="w-100 h-140 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
+          <div className="w-100 h-120 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
 
             <h3>Soft</h3>
             <br/>
@@ -213,17 +191,32 @@ export default async function HomePage() {
               and embrace new challenges with a positive attitude. I consistently meet deadlines, 
               deliver high-quality work, 
               and maintain dependability, ensuring tasks are completed as promised. </p>
-            
-           
-            
-             
+               
                
         </div>
       </div>
       </div>
 
-      <ThreeDCardDemo /> 
+      <h2 id="Contact" className="text-2xl mt-10 mb-2 pt-3">Contact me</h2>
+      <br/>
 
+      <ContactForm />
+
+      <footer className="flex justify-center space-x-8 text-center mt-14 border-2 border-gray-100 py-10">
+        <div><p>&copy; 2024 Americo Gonzalez</p></div>
+        <br/>
+        <Link href="https://www.linkedin.com/in/americo-gonzalez-82702630/">
+        <div className=""><SlSocialLinkedin size={25} title="LinkedIn" /></div>
+        </Link>
+        <Link href="https://github.com/AmericoGonzalez">
+        <div className=""><BsGithub size={25} title="github" /></div>
+        </Link>
+        <Link href="https://x.com/Dev_AGonzalez">
+        <div className=""><SlSocialTwitter size={25} title="x" /></div>   
+        </Link> 
+                                                            
+      </footer>
+     
  </div>       
      
 

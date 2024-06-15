@@ -8,50 +8,64 @@ import Link from "next/link";
 
 export function ThreeDCardDemo() {
   return (
-    <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-        <CardItem
-          translateZ="50"
-          className="text-xl dark:text-white"
-        >
-          Dashboard Of Invoices
-        </CardItem>
-        <br/>
-        <CardItem
-          as="p"
-          translateZ="60"
-          className="max-w-sm mt-2 dark:text-neutral-300"
-        >
-           This is a simplified version of a financial dashboard that I made following the course
-            Learn Next.js in the website of Next.js.
-            You can add, edit, and delete invoices in an accompanying DB provided for Vercel.
-            The dashboard will update automatically. You will notice simulated slow data 
-              created to apply loading skeletons.
-        </CardItem>
-        <br/>
-        <CardItem translateZ="100" className="w-full mt-4">
-          <Image
-            src="/dash-pic.png"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
+<div className="flex flex-col md:flex-row justify-center space-x-8">
+    <CardContainer className="w-100 h-140 p-3">
+
+      <CardBody className="bg-gray-50 relative group/card  
+      dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
+       dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+       border w-auto h-auto sm:w-[30rem] rounded-xl p-4">
+     
+        <CardItem translateZ="100" className="mt-4">
+         
             
+            <Image
+            src="/mypic01.png"
+            layout="responsive"
+            alt="my picture 1"
+            width={50}
+            height={100}
+            className="rounded-xl"
           />
+
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
-          <CardItem
-            translateZ={20}
-            as={Link}
-            href="https://portfolio-project-lemon-two.vercel.app/dashboard"
-            target="__blank"
-            className="px-4 py-2 text-blue-600 rounded-xl text-xl dark:text-white"
-          >
-            Try now →
-          </CardItem>
-          
-        </div>
+
+ 
+
+       
       </CardBody>
     </CardContainer>
+
+
+    <CardContainer className="w-100 h-140 p-3">
+
+<CardBody className="bg-gray-50 relative group/card  
+dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
+ dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+ border w-auto h-auto sm:w-[30rem] rounded-xl p-6">
+
+  
+
+  <CardItem
+as="p"
+translateZ="60"
+className="max-w-sm mt-2 dark:text-neutral-300"
+>
+My name is Americo Gonzalez.
+    I&rsquo;m a Chilean-Canadian fluent in both Spanish and English.
+    My academic journey began with a Bachelor&rsquo;s degree in History and Geography, providing me with a well-rounded foundation in the social sciences.
+    My subsequent academic journey led me to Canada, where I pursued studies in business administration. Recently, I&rsquo;ve embarked on web development studies, which I&rsquo;ve just completed.
+  I have a keen interest in exploring diverse cultures through travel, although my opportunities for globe-trotting have been somewhat limited thus far.
+    When it comes to leisure, I&rsquo;m drawn to sci-fi films, classic rock-pop music, and video editing. I&rsquo;m passionate about culture, cutting-edge technology, and the visual arts in general.
+</CardItem>
+
+ 
+</CardBody>
+</CardContainer>
+
+
+
+</div>
+
   );
 }
