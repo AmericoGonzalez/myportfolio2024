@@ -141,6 +141,41 @@ export default async function HomePage() {
       </div>
       </div>
 
+  <div className="flex items-center justify-center mb-6">
+
+   <div className="w-100 h-140 mx-4 p-4 border-2 border-grey rounded-xl">
+  
+   <h1>My Chat</h1>
+   <br/>
+  
+   <p>This is a simple chat app that I made with Node.js, Bootstrap, Socket.io, and a MongoDB Atlas.
+
+    </p>
+   
+   <br/>
+
+    <Link href="https://mychat-tl2z.onrender.com/">
+    <div className="text-blue-600 hover:text-blue-800">
+      <p>Click here to see the app.</p>
+    </div>
+    </Link>
+
+   <br />
+
+   <Image
+  src="/mychat.png"
+  layout="responsive"
+  alt="dashboard"
+  width={30}
+  height={80}
+  className="object-contain w-auto h-full"
+   />
+
+  </div>
+ </div>
+
+
+
       <h2 id="About" className="text-2xl mt-10 pt-3">About</h2>
 
          <ThreeDCardDemo /> 
