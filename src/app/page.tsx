@@ -48,7 +48,7 @@ export default async function HomePage() {
           
           <div><p className="text-xl">Hello I am</p></div>
           <TextGenerateEffectDemo />
-          <div><p className="text-xl">Rookie Developer 😜</p></div>
+          <div><p className="text-xl">Web Developer</p></div>
           </div>  
          
         </div>
