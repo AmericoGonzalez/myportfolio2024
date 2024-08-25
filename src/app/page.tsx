@@ -18,6 +18,7 @@ import ContactForm from "@/app/contactform";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { BsGithub } from "react-icons/bs";
 import { SlSocialTwitter } from "react-icons/sl";
+import { FaInstagram } from "react-icons/fa6";
 
 
 
@@ -223,8 +224,10 @@ export default async function HomePage() {
             
             <p>My managers have described me as a flexible and reliable employee. 
               I adapt well to changing circumstances, readily shift priorities, 
-              and embrace new challenges with a positive attitude. I consistently meet deadlines, 
-              deliver high-quality work, 
+              and embrace new challenges with a positive attitude.</p>
+              <br/>
+              <p> 
+              I consistently meet deadlines, deliver high-quality work, 
               and maintain dependability, ensuring tasks are completed as promised. </p>
                
                
@@ -246,8 +249,8 @@ export default async function HomePage() {
         <Link href="https://github.com/AmericoGonzalez">
         <div className=""><BsGithub size={25} title="github" /></div>
         </Link>
-        <Link href="https://x.com/Dev_AGonzalez">
-        <div className=""><SlSocialTwitter size={25} title="x" /></div>   
+        <Link href="https://www.instagram.com/developer_agonzalez/">
+        <div className=""><FaInstagram size={25} title="instagram" /></div>   
         </Link> 
                                                             
       </footer>
