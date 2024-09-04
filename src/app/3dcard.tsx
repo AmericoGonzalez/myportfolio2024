@@ -52,7 +52,7 @@ translateZ="60"
 className="max-w-sm mt-2 dark:text-neutral-300"
 >
 My name is Americo Gonzalez.
-    I&rsquo;m a Chilean-Canadian fluent in both Spanish and English.
+    I&rsquo;m fluent in both Spanish and English.
     My academic journey began with a Bachelor&rsquo;s degree in History and Geography, providing me with a well-rounded foundation in the social sciences.
     My subsequent academic journey led me to Canada, where I pursued studies in business administration. Recently, I&rsquo;ve embarked on web development studies, which I&rsquo;ve just completed.
   I have a keen interest in exploring diverse cultures through travel, although my opportunities for globe-trotting have been somewhat limited thus far.
