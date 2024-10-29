@@ -17,7 +17,6 @@ import ContactForm from "@/app/contactform";
 
 import { SlSocialLinkedin } from "react-icons/sl";
 import { BsGithub } from "react-icons/bs";
-import { SlSocialTwitter } from "react-icons/sl";
 import { FaInstagram } from "react-icons/fa6";
 
 
@@ -34,7 +33,7 @@ export default async function HomePage() {
         
         <div className="border-grey my-8 border-2 flex justify-center space-x-2 rounded-bl-3xl rounded-tr-3xl shadow-xl shadow-grey-200/40">
         
-          <div className="rounded-full border-2 borde-grey overflow-hidden w-52 h-52 mr-5 ml-5 mt-5 mb-5 bg-white shadow-xl outline-solid">
+          <div className="w-52 h-52 mr-5 ml-5 mt-5 mb-5 bg-white ">
           <Image
            
             src="/mypic00.png"
