@@ -31,9 +31,11 @@ export default async function HomePage() {
     
       <div className="flex justify-center">
         
-        <div className="border-grey my-8 border-2 flex justify-center space-x-2 rounded-bl-3xl rounded-tr-3xl shadow-xl shadow-grey-200/40">
-        
-          <div className="w-52 h-52 mr-5 ml-5 mt-5 mb-5 bg-white ">
+        {/* <div className="border-grey my-8 border-2 flex justify-center space-x-2 rounded-bl-3xl rounded-tr-3xl shadow-xl shadow-grey-200/40">*/}
+          {/*<div className="w-52 h-52 mr-5 ml-5 mt-5 mb-5 bg-white ">*/}
+
+          <div className="flex flex-col items-center md:flex-row justify-center my-8 border-2 border-grey rounded-bl-3xl rounded-tr-3xl shadow-xl shadow-grey-200/40">
+          <div className="w-32 h-32 md:w-52 md:h-52 bg-white m-4">
           <Image
            
             src="/mypic00.png"
@@ -44,8 +46,9 @@ export default async function HomePage() {
           /> 
           </div>
         
-          <div className="flex flex-col items-center justify-center pl-1 pr-8 mr-10 words">
-          
+          {/*<div className="flex flex-col items-center justify-center pl-1 pr-8 mr-10 words">*/}
+
+          <div className="flex flex-col items-center justify-center text-center p-4 md:pl-1 md:pr-8">
           <div><p className="text-xl">Hello I am</p></div>
           <TextGenerateEffectDemo />
           <div><p className="text-xl">Web Developer</p></div>
