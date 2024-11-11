@@ -22,7 +22,6 @@ import { FaInstagram } from "react-icons/fa6";
 
 
 
-
 export default async function HomePage() {
   return (
    <div className="text-center">
@@ -193,7 +192,7 @@ export default async function HomePage() {
 
           <div className="w-100 h-120 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
             
-            <h3>Technical</h3>
+            <h3 className="font-bold">Technical</h3>
             <br/>
             
             <p>Recently I completed a program at BCIT 
@@ -212,6 +211,7 @@ export default async function HomePage() {
             <p>Some tools that I learned to use are: VSCode, Figma, Visio, Microsoft Access,
              Notion, Github, Vercel, and Postman.
             </p>
+            <p className="font-bold">Currently pursuing a software development certificate at BCIT too.</p>
             
             
           </div>
@@ -221,7 +221,7 @@ export default async function HomePage() {
 
           <div className="w-100 h-120 mx-4 p-4 border-2 border-grey rounded-xl text-justify">
 
-            <h3>Soft</h3>
+            <h3 className="font-bold">Soft</h3>
             <br/>
             
             <p>My managers have described me as a flexible and reliable employee. 
@@ -242,6 +242,9 @@ export default async function HomePage() {
 
       <ContactForm />
 
+      
+      
+
       <footer className="flex justify-center space-x-8 text-center mt-14 border-2 border-gray-100 py-10">
         <div><p>&copy; 2024 Americo Gonzalez</p></div>
         <br/>
@@ -254,7 +257,9 @@ export default async function HomePage() {
         <Link href="https://www.instagram.com/developer_agonzalez/">
         <div className=""><FaInstagram size={25} title="instagram" /></div>   
         </Link> 
-                                                            
+
+        {/*<a href="https://lordicon.com/">Animated icons by Lordicon.com</a>*/}         
+
       </footer>
      
  </div>       
@@ -262,4 +267,5 @@ export default async function HomePage() {
 
   );
 }
+
 
