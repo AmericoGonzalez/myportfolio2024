@@ -194,9 +194,14 @@ export default async function HomePage() {
             
             <h3 className="font-bold">Technical</h3>
             <br/>
-            
-            <p>Recently I completed a program at BCIT 
+
+            <Link href="https://www.bcit.ca/programs/applied-web-development-associate-certificate-part-time-6957acert/#courses">
+              <div className="text-blue-600 hover:text-blue-800">
+              <p>Recently I completed a program at BCIT 
               that included the following courses:</p>
+              </div>
+              </Link>
+
             <br/>
             <ul className="list-disc pl-5">
               <li>HTML and CSS</li>
@@ -208,10 +213,14 @@ export default async function HomePage() {
               <li>React and Next.js</li>
             </ul>
             <br/>
-            <p>Some tools that I learned to use are: VSCode, Figma, Visio, Microsoft Access,
-             Notion, Github, Vercel, and Postman.
-            </p>
-            <p className="font-bold">Currently pursuing a software development certificate at BCIT too.</p>
+            <Link href="https://www.bcit.ca/programs/applied-software-development-asd-associate-certificate-part-time-6958acert/#courses">
+              <div className="text-blue-600 hover:text-blue-800">
+              <p className="font-bold">I am currently pursuing a software development certificate at BCIT. 
+              I completed the first programing course in Python and now 
+              I am taking the second course of programing based on Java</p>
+              </div>
+              </Link>
+            
             
             
           </div>
@@ -246,7 +255,7 @@ export default async function HomePage() {
       
 
       <footer className="flex justify-center space-x-8 text-center mt-14 border-2 border-gray-100 py-10">
-        <div><p>&copy; 2024 Americo Gonzalez</p></div>
+        <div><p>&copy; 2024 - 2025 Americo Gonzalez</p></div>
         <br/>
         <Link href="https://www.linkedin.com/in/americo-gonzalez-82702630/">
         <div className=""><SlSocialLinkedin size={25} title="LinkedIn" /></div>

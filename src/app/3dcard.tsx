@@ -53,8 +53,8 @@ className="max-w-sm mt-2 dark:text-neutral-300"
 >
 My name is Americo Gonzalez.
     I&rsquo;m fluent in both Spanish and English.
-    My academic journey began with a Bachelor&rsquo;s degree in History and Geography, providing me with a well-rounded foundation in the social sciences.
-    My subsequent academic journey led me to Canada, where I pursued studies in business administration. Recently, I&rsquo;ve embarked on web development studies, which I&rsquo;ve just completed.
+    I have a Bachelor&rsquo;s degree in History and Geography that provided me a well-rounded foundation in the social sciences.
+    My subsequent academic journey brought me to Canada, where I got a Diploma in business administration. Recently, I&rsquo;ve embarked on web and software development studies.
   I have a keen interest in exploring diverse cultures through travel, although my opportunities for globe-trotting have been somewhat limited thus far.
     When it comes to leisure, I&rsquo;m drawn to sci-fi films, classic rock-pop music, and video editing. I&rsquo;m passionate about culture, cutting-edge technology, and the visual arts in general.
 </CardItem>
