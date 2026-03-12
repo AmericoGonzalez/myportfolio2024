@@ -152,7 +152,7 @@ export default async function HomePage() {
           </div>
         </div>
       </div>
-
+      {/*}
       <div className="flex items-center justify-center mb-6">
         <div className="w-100 h-140 mx-4 p-4 border-2 border-grey rounded-xl">
           <h1>My Chat</h1>
@@ -182,7 +182,7 @@ export default async function HomePage() {
             className="object-contain w-auto h-full"
           />
         </div>
-      </div>
+      </div>*/}
 
       <h2 id="About" className="text-2xl mt-10 pt-3">
         About
@@ -203,9 +203,9 @@ export default async function HomePage() {
 
             <Link href="https://www.bcit.ca/programs/applied-web-development-associate-certificate-part-time-6957acert/#courses">
               <div className="text-blue-600 hover:text-blue-800">
-                <p>
-                  Recently I completed a program at BCIT that included the
-                  following courses:
+                <p className="font-bold">
+                  I completed a program at BCIT that included the following
+                  courses:
                 </p>
               </div>
             </Link>
@@ -224,9 +224,8 @@ export default async function HomePage() {
             <Link href="https://www.bcit.ca/programs/applied-software-development-asd-associate-certificate-part-time-6958acert/#courses">
               <div className="text-blue-600 hover:text-blue-800">
                 <p className="font-bold">
-                  I am currently pursuing a software development certificate at
-                  BCIT. I have completed the first programing course in Python
-                  and the second course of programing in Java
+                  Additionally, I completed Python (COMP 1516) and Java courses
+                  (COMP 2501 and COMP 2601) at BCIT.
                 </p>
               </div>
             </Link>
@@ -239,15 +238,16 @@ export default async function HomePage() {
             <br />
 
             <p>
-              My managers have described me as a flexible and reliable employee.
-              I adapt well to changing circumstances, readily shift priorities,
-              and embrace new challenges with a positive attitude.
+              Motivated and detail-oriented developer with a solid foundation in
+              Java, Python, and web development gained through coursework at
+              BCIT. Strong analytical and problem-solving skills with the
+              ability to write clean, maintainable code and communicate
+              technical concepts clearly. Adaptable learner who enjoys working
+              in collaborative environments and continuously developing new
+              technical skills. Seeking an opportunity to contribute to a
+              development team while growing as a software developer.
             </p>
             <br />
-            <p>
-              I consistently meet deadlines, deliver high-quality work, and
-              maintain dependability, ensuring tasks are completed as promised.{" "}
-            </p>
           </div>
         </div>
       </div>
